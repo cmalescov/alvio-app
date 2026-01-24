@@ -7,7 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "alvioapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.c.malescov.alvio-app",
@@ -43,7 +42,9 @@
           }
         }
       ],
-      "expo-web-browser"
+      "expo-web-browser",
+      "expo-font",
+      "expo-image"
     ],
     "experiments": {
       "typedRoutes": true,
@@ -54,6 +55,12 @@
       "eas": {
         "projectId": "884a1f38-0baf-4079-839a-0281ca6f3796"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/884a1f38-0baf-4079-839a-0281ca6f3796"
     }
   }
 }
