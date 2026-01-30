@@ -1,15 +1,14 @@
-import { Text, View } from "react-native";
+import {ScrollView, Text} from "@/tw";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
+    <ScrollView className="flex-1 bg-white p-16">
+      <Text className="text-xl font-bold text-gray-900">
+        Hello Tailwind!
+      </Text>
+      <Text className="text-xl font-bold text-gray-900">
+        Hello Tailwind!
+      </Text>
+    </ScrollView>
   );
 }

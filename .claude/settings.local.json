@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(git -C /Users/c.malescov/Development/alvio-app log --oneline)",
+      "Bash(head:*)",
+      "Skill(upgrading-expo:upgrading-expo)",
+      "Bash(npx expo install:*)",
+      "Bash(npm install:*)",
+      "Bash(npx expo-doctor)",
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(ls:*)",
+      "Bash(npm show:*)",
+      "Bash(npm run ios:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs",
+      "Bash(npm uninstall:*)",
+      "Bash(npx expo start:*)",
+      "Bash(npm view:*)"
+    ]
+  }
+}
